@@ -3,12 +3,14 @@ Użytkownik będzie wprowadzał treść, którą chce wyszukać,
 w pole tekstowe, a po wysłaniu formularza konieczne 
 jest utworzenie żądania HTTP. -->
 
-<form class="search-form" id="search-form">
-  <input
-    type="text"
-    name="searchQuery"
-    autocomplete="off"
-    placeholder="Search images..."
-  />
-  <button type="submit">Search</button>
-</form>
+<div class="form">
+  <form class="form__input" id="search-form">
+    <input
+      type="text"
+      name="searchQuery"
+      autocomplete="off"
+      placeholder="Look out here for the pics!"
+    />
+    <button class="form__btn-submit" type="submit">Search</button>
+  </form>
+</div>

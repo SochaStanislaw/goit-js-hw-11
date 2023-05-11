@@ -1,0 +1,9 @@
+@import '../utils/vars';
+
+.header {
+    background-color: blue;
+    display: flex;
+    &__logo {
+        cursor: pointer;
+    }
+}
