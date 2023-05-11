@@ -1,4 +1,7 @@
 body {
     box-sizing: border-box;
     margin: 0 auto;
+    min-height: 100vh;
+    background: linear-gradient(225deg, rgba(4,25,137,1) 50%, rgba(21,51,212,1) 78%);
+    background-size: cover;
 }
