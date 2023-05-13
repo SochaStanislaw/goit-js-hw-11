@@ -1,6 +1,6 @@
 # goit-js-hw-11
 
-Pics finde made with html, scss & js
+Pics finder made with html, scss & js
 
 PixabayAPI, Axios
 
