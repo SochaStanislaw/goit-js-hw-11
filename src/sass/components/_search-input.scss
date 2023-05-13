@@ -1,0 +1,24 @@
+@import '../utils/vars';
+
+.form-box {
+    outline: 3px blue solid;
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    &__input {
+        width: 400px;
+        height: 32px;
+        margin-right: 20px;
+    }
+    &__sub-btn {
+        width: 150px;
+        height: 38px;
+        margin-left: 20px;
+    }
+}

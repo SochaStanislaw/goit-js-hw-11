@@ -1,9 +1,10 @@
 // IMPORTS STYLES
-// header
-@import './components/footer';
-// eye tracking
+// header eye tracking
 @import './components/eye-tracking';
-// search input
-@import './components/search-form';
-// gallery layout
-// pic card style
+// search form style
+@import './components/search-input.scss';
+// gallery layout&pic card style
+@import './components/gallery';
+// the rest of page layout from index
+@import './components/_index';
+

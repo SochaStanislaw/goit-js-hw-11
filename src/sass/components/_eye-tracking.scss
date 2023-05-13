@@ -1,13 +1,19 @@
 @import '../utils/vars';
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+// .bar-box {
+//     margin-bottom: 20px;
+// }
+
+.bar {
+    width: 800px;
+    margin: 15px auto;
     padding: 10px 200px;
     display: flex;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.1);
-    // position: sticky;     
+    // background-color: blue;
+    backdrop-filter: blur(8px);
+    // position: fixed;    
 }
 
 .eye {
@@ -48,8 +54,13 @@
 }
 
 .header {
+    &__link {
+        text-decoration: none;
+    }
     &__title {
         font-family: 'Montserrat', sans-serif;
+        color: antiquewhite;
+        text-decoration: none;
     }
 }
   

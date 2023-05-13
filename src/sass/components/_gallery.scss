@@ -1,0 +1,24 @@
+@import '../utils/vars';
+
+.gallery-box {
+    // outline: 3px red solid;
+    width: 1200px;
+    margin: 15px auto;
+}
+
+// .gallery {
+//     display: grid;
+// }
+
+// .pic-card {
+    
+// }
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-item {
+    font-family: 'Montserrat', sans-serif;
+}
